@@ -2,12 +2,19 @@
 It's called "llama theme" but there's no llamas... Sounds like false advertising....
 
 # Installation:
-As of now I have no install-script, allthough that is to be fixed in a later addition.
+## Easy (Automatic - Limited Support):
+Run the installer in sudo:
+```
+sudo bash ./installer.sh
+```
+And follow given instructions...
 
-## Basic Guide:
+(As of now this is not that useful - works on Arch Linux...)
+
+## Advanced (Manual):
 ```
 $ |  sudo su
-# |  cp -r /path/to/source/* /path/to/plymouth/theme/folder
+# |  cp -av /path/to/source/* /path/to/plymouth/theme/folder
 # |  plymouth-set-default-theme llama -R
 # |  reboot
 ```
